@@ -9,7 +9,6 @@ interface IProfile {
 }
 
 export const Profile: FC<IProfile> = (props): ReactElement => {
-	console.log(props);
 	return (
 		<Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
 			<Avatar
